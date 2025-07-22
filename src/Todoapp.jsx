@@ -83,6 +83,7 @@ export const Todoapp = () => {
 
     return (
         <>
+        <section className="dd todo-containers">
             <section className="todo-container">
                 <BubbleBackground></BubbleBackground>
 
@@ -110,6 +111,7 @@ export const Todoapp = () => {
                     Clear All
                 </button>
                 <Footer></Footer>
+            </section>
             </section>
 
         </>

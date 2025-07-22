@@ -2,24 +2,28 @@
 
 body {
   margin: 0;
- font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   background: #0f2027;
   color: white;
   overflow-x: hidden;
 }
+
 * {
-   font-family: 'Quicksand', sans-serif !important;
+  font-family: 'Quicksand', sans-serif !important;
 }
-.todo-item span{
+
+.todo-item span {
   color: #a0d23a;
   font-weight: 600;
   font-size: 16px;
   text-transform: capitalize;
 }
+
 .todo-item span.checked {
-    text-decoration: line-through;
-    
+  text-decoration: line-through;
+
 }
+
 .todo-container {
   max-width: 600px;
   margin: 4rem auto;
@@ -29,6 +33,11 @@ body {
   position: relative;
   z-index: 2;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+
+}
+
+.todo-containers {
+  margin: 0 20px;
 }
 
 header h1 {
@@ -195,12 +204,16 @@ header h1 {
     flex-direction: column;
   }
 
-  .todo-item {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
   .actions {
     margin-top: 0.5rem;
   }
+
+  .todo-container {
+    padding: 1.2rem;
+  }
+
+  .date {
+    font-size: 17px;
+  }
+
 }
